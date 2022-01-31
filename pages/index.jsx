@@ -9,7 +9,9 @@ export default function Characters({ characters }) {
         <title>Star Wars Characters | StarWars.com</title>
       </Head>
       <HomeScreenContainer>
-        <h1>Starwars</h1>
+        <StarfieldLeft />
+        <CharactersContainer></CharactersContainer>
+        <StarfieldRight />
       </HomeScreenContainer>
     </>
   )
