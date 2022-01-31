@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import Head from 'next/head'
 
 export default function Characters({ characters }) {
+  console.info('cara', characters)
   return (
     <>
       <Head>
